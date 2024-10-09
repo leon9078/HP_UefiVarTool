@@ -15,9 +15,7 @@ After booting the UEFI Shell, type:
 FSX: #Where X is the index of the FAT partition where the in.txt file resides.
 uvt < in.txt
 
-Ctrl+Alt+Del to Reboot!!!
-
 Laptop: HP 15da-1000nl<br/>
 BIOS Vendor: Insyde<br/>
-BIOS Version: F.47<br/>
-BIOS Release Date: 12/25/2023
+BIOS Version: F.48<br/>
+BIOS Release Date: 04/26/2024
