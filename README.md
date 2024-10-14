@@ -12,8 +12,13 @@ Rename "usr\share\edk2-shell\x64\Shell_Full.efi" to "BOOTx64.efi".<br/>
 You can take "uvt.efi" from [UefiVarTool](https://github.com/GeographicCone/UefiVarTool/releases/latest). All credits goes to [GeographicCone](https://github.com/GeographicCone) for this amazing tool!
 
 After booting the UEFI Shell, type:
-FSX: #Where X is the index of the FAT partition where the in.txt file resides.
-uvt < in.txt
+uvt < FS0:\in.txt
+
+[BIOS_F48.img] (https://mega.nz/file/KdxSxQTY#nA_iRcF88m88zpmpzwJBP916X0rnWhAs8CKXbi6JZ9A)
+[BIOS_F48.vhd] (https://mega.nz/file/qERFjQSa#g1HbqP-_EMlnqdnwUsjW0N8XwYGLfFFfb_GdXr5_qFM)
+
+Use BIOS_F48.img in Linux/macOS or BIOS_F48.vhd in Windows in order to create a bootable USB BIOS recovery flash drive.
+After created, insert the USB flash drive to the laptop. Connect the charger and shut down the PC. Hold down Win+B. While holding this combination, press and hold for 3 seconds the Power button, then release, but keep holding the Win+B combination. Release them when you hear the fans going full speed. It will start doing the recovery process.
 
 Laptop: HP 15da-1000nl<br/>
 BIOS Vendor: Insyde<br/>
